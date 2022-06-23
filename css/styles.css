@@ -1,1 +1,54 @@
+/* ziele Auf Alba Style */
 
+/* Allgemeine Elemente */
+h1 {
+
+    color: #fff;
+}
+
+
+/* Header */
+#header {
+    background-color: #4c899b;
+}
+
+.title-line {
+    margin-top: 2rem;
+}
+
+.title-text-2 {
+    margin: 1rem 0 0 3rem;
+}
+
+.navbar {
+    padding: 8px 30px;
+}
+
+.header-content {
+    padding: 5% 7% 0;
+}
+
+.container-fluid {
+    padding: 2% 15% 0;
+}
+
+.bowl-image {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    margin: 0 5% 0;
+    transform-origin: bottom;
+    width: 80%;
+}
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-25px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
+}
