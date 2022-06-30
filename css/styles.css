@@ -1,8 +1,7 @@
 /* ziele Auf Alba Style */
-
+/* #338193 #4c899b #6794a5 #5e93ad */
 /* Allgemeine Elemente */
 h1 {
-
     color: #fff;
 }
 
@@ -13,7 +12,10 @@ h1 {
 }
 
 .title-line {
-    margin-top: 2rem;
+    margin-top: 5rem;
+    font-family: "Merriweather+Sans";
+    font-weight: 800;
+    font-size: 3.5rem;
 }
 
 .title-text-2 {
@@ -24,8 +26,13 @@ h1 {
     padding: 8px 30px;
 }
 
+.navbar-brand{
+    font-family: "Homemade Apple";
+    font-size: 3.5rem;
+}
+
 .header-content {
-    padding: 5% 7% 0;
+    padding: 2% 7% 0;
 }
 
 .container-fluid {
@@ -38,7 +45,7 @@ h1 {
     animation-iteration-count: 1;
     margin: 0 5% 0;
     transform-origin: bottom;
-    width: 80%;
+    width: 90%;
 }
 .bounce {
     animation-name: bounce;
@@ -51,4 +58,34 @@ h1 {
     30%  { transform: scale(.9,1.1) translateY(-25px); }
     50%  { transform: scale(1,1)    translateY(0); }
     100% { transform: scale(1,1)    translateY(0); }
+}
+
+/* Features */
+
+#features{
+    margin: 3% 15%;
+    text-align: center;
+} 
+
+.feature-box{
+    padding: 5%;
+}
+
+.feature-icon{
+    color: #519ecf ;
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+
+.feature-icon:hover{
+    color: #4c899b;
+}
+
+.places {
+    text-decoration: none;
+    color: #519ecf;
+}
+
+.places:hover{
+    color: #4c899b;
 }
