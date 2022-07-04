@@ -46,7 +46,7 @@
   <body>
     <!-- Header -->
     <section id="header">
-      <div class="container-fluid">
+      <div class="navbar-container container-fluid">
         <!-- Nav-Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
           <a href="" class="navbar-brand">Linsenspross</a>
@@ -55,15 +55,14 @@
             class="navbar-toggler"
             data-bs-toggle="collapse"
             data-bs-target="#TogglerDem"
-            aria-controls="TogglerDem"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse">
+          <div class="collapse navbar-collapse" id="TogglerDem">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a href="#footer" class="nav-link">Contact</a></li>
+              <li class="nav-item">
+                <a href="#footer" class="nav-link">Contact</a>
+              </li>
               <li class="nav-item">
                 <a href="" class="nav-link">Bowls & Events</a>
               </li>
@@ -76,9 +75,9 @@
         <div class="row header-content">
           <div class="col-lg-6 col-md-6 title-line">
             <h1 class="title-text-1">Your Good Life Bowl -</h1>
-            <h1 class="title-text-2">Right around the corner</h1>
+            <h1 class="title-text-2">around the corner</h1>
           </div>
-          <div class="col-lg-6 col-md-6 stage">
+          <div class="col-lg-6 col-md-12 stage">
             <img
               class="bowl-image bounce"
               src="images\LinsensprossBowl.PNG"
@@ -92,12 +91,12 @@
     <!-- Features -->
     <section id="features">
       <div class="row">
-        <div class="col-lg-4 feature-box">
+        <div class="col-lg-4 col-md-6 feature-box">
           <span class="fa-solid fa-carrot feature-icon"></span>
           <h3>Vegan</h3>
           <p>Unser frisches Gemüse kommt direkt vom Biohof aus der Umgebung.</p>
         </div>
-        <div class="col-lg-4 feature-box">
+        <div class="col-lg-4 col-md-6 feature-box">
           <span class="fa-solid fa-road feature-icon"></span>
           <h3>Streetfood</h3>
           <p>
@@ -190,14 +189,8 @@
           </div>
         </div>
         <div class="col-lg-7 col-sm-12">
-          <div
-            class="padding-60px-lr md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all"
-          >
-            <h5
-              class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500"
-            >
-              Linsensprossdinner
-            </h5>
+          <div class="date-text">
+            <h5 class="title-date">Linsensprossdinner</h5>
             <ul class="event-time margin-10px-bottom md-margin-5px-bottom">
               <li>
                 <i class="far fa-clock event-ico"></i> 18:00 Uhr - 20:30 Uhr
@@ -213,29 +206,30 @@
             </p>
           </div>
         </div>
-      </section>
-        <footer class="white-section" id="footer">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col align-self-center">
-                <a href="" target=”_blank”
-                  ><span class="foot-ico fa-brands fa-twitter"></span
-                ></a>
-                <a href="" target=”_blank”
-                  ><span class="foot-ico fa-brands fa-facebook"></span
-                ></a>
-                <a href="https://www.instagram.com/linsenspross/"target=”_blank”
-                  ><span class="foot-ico fa-brands fa-instagram"></span
-                ></a>
-                <a href="" target=”_blank”
-                  ><span class="foot-ico fa-solid fa-envelope"></span
-                ></a>
-              </div>
-            </div>
-            <p>© Copyright Linsenspross</p>
-          </div>
-        </footer>
       </div>
-    
+    </section>
+    <footer class="white-section" id="footer">
+      <div class="ico-row row">
+        <div class="col align-self-center">
+          <a class="col-lg-3 col-md-3" href="" target="”_blank”"
+            ><span class="foot-ico fa-brands fa-twitter"></span
+          ></a>
+          <a class="col-lg-3 col-md-3" href="" target="”_blank”"
+            ><span class="foot-ico fa-brands fa-facebook"></span
+          ></a>
+          <a
+            class="col-lg-3 col-md-3"
+            href="https://www.instagram.com/linsenspross/"
+            target="”_blank”"
+            ><span class="foot-ico fa-brands fa-instagram"></span
+          ></a>
+          <a class="col-lg-3 col-md-3" href="" target="”_blank”"
+            ><span class="foot-ico fa-solid fa-envelope"></span
+          ></a>
+        </div>
+
+        <p>© Copyright Linsenspross</p>
+      </div>
+    </footer>
   </body>
 </html>
