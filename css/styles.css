@@ -39,6 +39,9 @@ h3{
     font-family: "Homemade Apple";
     font-size: 3.5rem;
 }
+.ls-ico{
+    display: none;
+}
 
 .header-content {
     padding: 2% 7% 0;
@@ -257,4 +260,20 @@ h3{
         padding: 3% 7%;
     }
 
+}
+
+@media(max-width: 628px ){
+    .ls-ico{
+        display: flex;
+        margin-bottom: 10px;
+
+    }
+    .ls-standard{
+        display: none;
+    }
+    .foot-ico{ 
+        margin: 20px 10px;
+        font-size: 1.5rem;
+        color: #fff;
+    }
 }
