@@ -38,9 +38,17 @@
   }
 
   @media screen and (max-width: 425px) {
-    
+    .cal{
+        width: 425px;
+        height: 500px;
+    }
   }
-
+  @media screen and (max-width: 320px) {
+    .cal{
+        width: 320px;
+        height: 500px;
+    }
+  }
 
 
 
