@@ -1,0 +1,24 @@
+{
+  "name": "linsenspross",
+  "version": "1.1.0",
+  "description": "Infowebsite Linsenspross",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rabenkoenig/Linsenspross.git"
+  },
+  "author": "Peter Schweinitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rabenkoenig/Linsenspross/issues"
+  },
+  "homepage": "https://github.com/Rabenkoenig/Linsenspross#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
