@@ -40,13 +40,16 @@ p{
 .title-text-2 {
     margin: 1rem 0 0 3rem;
 }
+.title-text-3{
+    margin: 1rem 0 0 6rem;
+}
 
 .navbar {
     padding: 8px 30px;
 }
 
 .navbar-brand{
-    font-family: "Homemade Apple";
+    font-family: "Antic Slab";
     font-size: 3.5rem;
 }
 .ls-ico{
