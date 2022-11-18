@@ -1,5 +1,5 @@
 /* ziele Auf Alba Style */
-/* #338193 #4c899b #6794a5 #5e93ad */
+/* #338193 #5B909E #6794a5 #5e93ad */
 /* Allgemeine Elemente */
 body{
     font-family: "Merriweather Sans";
@@ -27,7 +27,7 @@ p{
 
 /* Header */
 #header {
-    background-color: #4c899b;
+    background-color: #5B909E;
 }
 
 .title-line {
@@ -106,7 +106,7 @@ p{
 }
 
 .feature-icon:hover{
-    color: #4c899b;
+    color: #5B909E;
 }
 
 .places {
@@ -115,13 +115,13 @@ p{
 }
 
 .places:hover{
-    color: #4c899b;
+    color: #5B909E;
 }
 
 /* Slides */
 
 #slides{
-    background-color: #4c899b;
+    background-color: #5B909E;
     text-align: center;
     color: #fff;
 }
@@ -215,7 +215,7 @@ p{
 /* Footer */
 
 #footer{
-    background-color: #4c899b;
+    background-color: #5B909E;
     color: #fff;
     text-align: center;
 }
