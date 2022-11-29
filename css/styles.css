@@ -285,6 +285,12 @@ p{
         font-size: 1.5rem;
         color: #fff;
     }
+    .foot-impressum{
+        margin: 20px 10px;
+        color: #fff;
+        font-size: 1rem;
+    }
+
 
 }
 
@@ -356,5 +362,32 @@ p{
 .about-row{
     text-align: left;
 }
+
+/* Impressum */
+
+.logo-img{
+    width: 50%;
+}
+
+.foot-impressum{
+    margin: 20px 10px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#para-imp{
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+.foot-imp{ 
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot-imp:hover{
+    color: lightgrey;
+}
+
 
 
