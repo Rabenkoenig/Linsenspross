@@ -2,18 +2,41 @@
 <!-- Parallax -->
 <section id="parallax">
   <div class="row parallax-inner">
-    <div
-      class="col-xxl-5 offset-xxl-7 col-md-6 offset-md-3 offset-sm-1 contentframe"
-    >
-      <h1 class="cal-text">Lass uns in deinen Kalender!</h1>
-      <iframe
-        class="cal"
-        src="https://calendar.google.com/calendar/embed?height=420&wkst=1&bgcolor=%234c899b&ctz=Europe%2FBerlin&showTitle=0&showDate=0&showNav=0&showTabs=1&showPrint=0&showCalendars=0&showTz=0&mode=MONTH&src=cWxxcmg2amN2bjRoOGpxNDN2b3ZjYjd1Mm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23E67C73"
-        style="border: solid 1px #777"
-        frameborder="0"
-        scrolling="no"
-      ></iframe>
-    </div>
+    <h1 class="cal-text">Lass uns in deinen Kalender!</h1>
+    <section id="date" class="container-row">
+      <!-- start event block -->
+      <div class="row align-items-center event-block no-gutters">
+        <div class="col-lg-5 col-sm-12">
+          <div class="position-relative">
+            <img src="images/Dinner.PNG" class="dinner-pic" alt="Dinner" />
+            <div class="events-date">
+              <div class="font-size28">21</div>
+              <div class="font-size14">Jan</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-sm-12">
+          <div class="date-text">
+            <h5 class="title-date">Linsenspross Dinner</h5>
+            <ul class="event-time margin-10px-bottom md-margin-5px-bottom">
+              <li>
+                <i class="far fa-clock event-ico"></i> 19:00 Uhr - 22:00 Uhr
+              </li>
+              <li>
+                <i class="fa-solid fa-calendar-check event-ico"></i>
+                Veranstaltung : Dinner
+              </li>
+            </ul>
+            <p>
+              Dich erwartet ein veganes 3-Gänge Menü. Wir versuchen dabei, die
+              Gerichte so zu gestalten, dass sie möglichst saisonal, regional
+              und Bio sind. Außerdem erwarten dich weitere Specials ;-)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </section>
+
 <%- include('partials/footer')%>

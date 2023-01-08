@@ -20,6 +20,10 @@ app.get("/calender", function (req, res) {
   res.render("calender");
 });
 
+app.get("/impressum", function (req, res) {
+  res.render("impressum");
+});
+
 app.listen(3000, function () {
   console.log("Server is up and running  on port 3000");
 });

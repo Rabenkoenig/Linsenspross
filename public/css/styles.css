@@ -1,5 +1,5 @@
 /* ziele Auf Alba Style */
-/* #338193 #4c899b #6794a5 #5e93ad */
+/* #338193 #5B909E #6794a5 #5e93ad */
 /* Allgemeine Elemente */
 body{
     font-family: "Merriweather Sans";
@@ -27,7 +27,7 @@ p{
 
 /* Header */
 #header {
-    background-color: #4c899b;
+    background-color: #5B909E;
 }
 
 .title-line {
@@ -40,21 +40,22 @@ p{
 .title-text-2 {
     margin: 1rem 0 0 3rem;
 }
+.title-text-3{
+    margin: 1rem 0 0 6rem;
+}
 
 .navbar {
     padding: 8px 30px;
 }
 
 .navbar-brand{
-    font-family: "Homemade Apple";
+    font-family: "Antic Slab";
     font-size: 3.5rem;
 }
-.ls-ico{
-    display: none;
-}
+
 
 .header-content {
-    background-color: #4c899b;
+    background-color: #5B909E;
     padding: 2% 7% 0;
 }
 
@@ -104,7 +105,7 @@ p{
 }
 
 .feature-icon:hover{
-    color: #4c899b;
+    color: #5B909E;
 }
 
 .places {
@@ -113,13 +114,13 @@ p{
 }
 
 .places:hover{
-    color: #4c899b;
+    color: #5B909E;
 }
 
 /* Slides */
 
 #slides{
-    background-color: #4c899b;
+    background-color: #5B909E;
     text-align: center;
     color: #fff;
 }
@@ -169,7 +170,8 @@ p{
 }
 
 .event-block {
-    box-shadow: 0px 0px 16px 0px #4C9B85
+    box-shadow: 0px 0px 16px 0px #4C9B85;
+    background-color:#fff;
 }
 
 .event-block ul li i {
@@ -213,7 +215,7 @@ p{
 /* Footer */
 
 #footer{
-    background-color: #4c899b;
+    background-color: #5B909E;
     color: #fff;
     text-align: center;
 }
@@ -263,13 +265,10 @@ p{
 
 @media(max-width: 628px ){
     /* Navbar */
-    .ls-ico{
-        display: flex;
-        margin-bottom: 10px;
-
-    }
     .ls-standard{
-        display: none;
+        margin-bottom: 10px;
+        font-size: 2rem;
+
     }
 
     /* Slides */
@@ -287,6 +286,12 @@ p{
         font-size: 1.5rem;
         color: #fff;
     }
+    .foot-impressum{
+        margin: 20px 10px;
+        color: #fff;
+        font-size: 1rem;
+    }
+
 
 }
 
@@ -358,5 +363,32 @@ p{
 .about-row{
     text-align: left;
 }
+
+/* Impressum */
+
+.logo-img{
+    width: 50%;
+}
+
+.foot-impressum{
+    margin: 20px 10px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#para-imp{
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+.foot-imp{ 
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot-imp:hover{
+    color: lightgrey;
+}
+
 
 
