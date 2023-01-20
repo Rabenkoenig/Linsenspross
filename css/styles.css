@@ -292,6 +292,14 @@ p{
         color: #fff;
         font-size: 1rem;
     }
+    /* calendar */
+    .title-date {
+        font-size: 20px;
+    }
+    .event-time li, ul {
+        font-size: 15px;
+    }
+    
 
 
 }
