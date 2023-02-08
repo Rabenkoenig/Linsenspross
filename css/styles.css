@@ -31,17 +31,19 @@ p{
 }
 
 .title-line {
-    margin-top: 5rem;
+    margin-top: 3rem;
     font-family: "Merriweather";
     font-weight: 800;
     font-size: 3.5rem;
 }
 
 .title-text-2 {
-    margin: 1rem 0 0 3rem;
+    margin: 1rem 0 0 6rem;
+    padding-top: 3rem;
 }
 .title-text-3{
-    margin: 1rem 0 0 6rem;
+    margin: 1rem 0 0 18rem;
+    padding-top: 3rem;
 }
 
 .navbar {
@@ -230,6 +232,99 @@ p{
 .foot-ico:hover{
     color: lightgrey;
 }
+/* calendar-site */
+/* Parallax */
+
+#parallax{
+    background: url("../images/paraBackground.jpg")
+    repeat fixed 25%; 
+    /* background-size: contain; */
+    
+    
+    
+}
+
+.parallax-inner{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin: 0;
+}
+
+.cal-headding {
+    margin: 5px 0 20px 0;
+    font-size: 2.5rem;
+}
+
+
+.contentframe{
+    padding: 0;
+    
+}
+
+.cal{
+    animation: fadeIn 5s;
+    opacity: 90%;
+    width: 510px;
+    height: 620px;
+    
+}
+
+.cal-text{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* about-us */
+
+.pic{
+    width: 80%;
+    border-radius: 100%;
+}
+
+.pic-left{
+    float: left;
+    margin-left: 30px;
+}
+
+.pic-right{
+    float: right;
+    margin-right: 30px;
+}
+
+.about-row{
+    text-align: left;
+}
+
+/* Impressum */
+
+.logo-img{
+    width: 50%;
+}
+
+.foot-impressum{
+    margin: 20px 10px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#para-imp{
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+.foot-imp{ 
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot-imp:hover{
+    color: lightgrey;
+}
+
+
+
+
+
 
 /* Medium size */
 
@@ -300,50 +395,14 @@ p{
         font-size: 15px;
     }
     
-
-
-}
-
-/* calendar-site */
-/* Parallax */
-
-#parallax{
-    background: url("../images/paraBackground.jpg")
-    repeat fixed 25%; 
-    /* background-size: contain; */
+    .cal-text{
+        font-size: 1rem;
+    }
     
-    
-    
+
+
 }
 
-.parallax-inner{
-    padding-top: 5%;
-    padding-bottom: 10%;
-    margin: 0;
-}
-
-.cal-headding {
-    margin: 5px 0 20px 0;
-    font-size: 2.5rem;
-}
-
-.cal-text{
-    color: #fff;
-    font-size: 1.5rem;
-}
-
-.contentframe{
-    padding: 0;
-    
-}
-
-.cal{
-    animation: fadeIn 5s;
-    opacity: 90%;
-    width: 510px;
-    height: 620px;
-    
-}
 
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -357,52 +416,3 @@ p{
     }
 }
   
-/* about-us */
-
-.pic{
-    width: 80%;
-    border-radius: 100%;
-}
-
-.pic-left{
-    float: left;
-    margin-left: 30px;
-}
-
-.pic-right{
-    float: right;
-    margin-right: 30px;
-}
-
-.about-row{
-    text-align: left;
-}
-
-/* Impressum */
-
-.logo-img{
-    width: 50%;
-}
-
-.foot-impressum{
-    margin: 20px 10px;
-    font-size: 2rem;
-    color: #fff;
-}
-
-#para-imp{
-    padding-bottom: 3%;
-    padding-top: 2%;
-}
-.foot-imp{ 
-    font-size: 1.2rem;
-    color: #fff;
-    text-decoration: none;
-}
-
-.foot-imp:hover{
-    color: lightgrey;
-}
-
-
-
