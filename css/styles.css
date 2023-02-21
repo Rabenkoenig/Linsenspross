@@ -30,6 +30,12 @@ p{
     background-color: #5B909E;
 }
 
+.headline {
+    font-family: "Antic Slab";
+    font-weight: 900;
+    font-size: 3.7rem;
+}
+
 .title-line {
     margin-top: 3rem;
     font-family: "Merriweather";
